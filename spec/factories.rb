@@ -16,4 +16,10 @@ FactoryBot.define do
     tree_id(11)
     association :tree, factory: :tree
   end
+
+  factory(:user) do
+    password('password')
+    email('test@example.org')
+  end
+
 end

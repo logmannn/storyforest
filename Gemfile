@@ -29,6 +29,8 @@ gem 'bcrypt'
 
 gem 'factory_bot_rails'
 
+gem 'actionmailer'
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
