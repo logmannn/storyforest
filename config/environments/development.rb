@@ -43,6 +43,7 @@ Rails.application.configure do
     authentication: "plain",
     enable_starttls_auto: true,
     user_name: 'storyforestpdx',
+    # make sure to change these when actually using this
     password: 'stories4lyfe'
   }
 
